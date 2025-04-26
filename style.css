@@ -1,0 +1,57 @@
+body {
+    width: 100vw;
+    height: 100vh;
+    margin: 0;
+    padding: 0;
+}
+
+.field-container {
+    width: 100vw;
+    height: 100vh;
+    background-color: rgb(44, 1, 1);
+    display: none;
+}
+
+.field {
+    width: 60vw;
+    height: 30vw;
+    display: grid;
+    grid-template-columns: repeat(30, 1fr);
+    grid-template-rows: repeat(15, 1fr);
+    gap: .5px;
+}
+
+.cell {
+    background-color: rgb(78, 0, 0);
+}
+
+.color {
+    width: 10px;
+    height: 10px;
+    margin-bottom: 3px;
+}
+
+.pink {
+    background-color: pink;
+}
+
+.blue {
+    background-color: blue;
+}
+
+.yellow {
+ background-color: yellow;
+}
+
+.red {
+    background-color: red;
+}
+
+.white {
+    background-color: white;
+}
+
+
+.selected{
+    border: 2px solid
+}
